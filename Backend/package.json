@@ -1,20 +1,18 @@
 {
-  "name": "smapp",
+  "name": "photo-share webapp",
   "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Hans Peterson <max.griehsler@gmail.com>",
+  "author": "Maximilian Griehsler",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
     "build": "sanity build"
   },
-  
   "keywords": [
     "sanity"
   ],
-
   "dependencies": {
     "@sanity/base": "^2.23.2",
     "@sanity/core": "^2.23.2",

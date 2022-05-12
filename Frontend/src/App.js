@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
-import { AddChat, Login, PinDetail, SearchChat } from './components'
+import { AddChat, Login, PinDetail, SearchChat } from "./components";
 import { Chatroom, Dashboard, Home, Service } from "./container";
-
 
 const App = () => {
   const navigate = useNavigate();
@@ -22,10 +21,6 @@ const App = () => {
       <Route path="/pin-detail" element={<PinDetail />} />
       <Route path="/home" element={<Dashboard />} />
       <Route path="/*" element={<Home />} />
-      <Route path="/service" element={<Service />} />
-      <Route path="/chatroom" element={<Chatroom />} />
-      <Route path="/add-chat" element={<AddChat />} />
-      <Route path="/searchchat" element={<SearchChat />} />
     </Routes>
   );
 };

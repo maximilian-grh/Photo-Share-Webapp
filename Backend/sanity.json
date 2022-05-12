@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "smapp"
+    "name": "photo-share webapp"
   },
   "api": {
     "projectId": "nrf3vhpj",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
