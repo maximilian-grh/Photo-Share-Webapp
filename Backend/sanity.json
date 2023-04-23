@@ -4,7 +4,7 @@
     "name": "photo-share webapp"
   },
   "api": {
-    "projectId": "nrf3vhpj",
+    "projectId": "",
     "dataset": "production"
   },
   "plugins": [
